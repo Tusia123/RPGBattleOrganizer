@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="character_name_weight">6</integer>
+    <integer name="character_kp_weight">1</integer>
+    <integer name="character_type_weight">3</integer>
+    <integer name="character_count_weight">2</integer>
+    <integer name="spell_name_weight">4</integer>
+    <integer name="spell_time_weight">2</integer>
+    <integer name="spell_whose_weight">3</integer>
+</resources>

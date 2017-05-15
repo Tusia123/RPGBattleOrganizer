@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:focusableInTouchMode="true"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/vertical_divider"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <CheckBox
+            android:id="@+id/one_character_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:id="@+id/one_character_image"
+            android:layout_width="@dimen/img_size"
+            android:layout_height="@dimen/img_size"
+            android:src="@drawable/default_character" />
+
+        <TextView
+            android:id="@+id/one_character_name"
+            style="@style/RPGstyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/character_name_weight"
+            android:paddingEnd="@dimen/character_name_padding"
+            android:paddingLeft="@dimen/character_name_padding"
+            android:paddingRight="@dimen/character_name_padding"
+            android:paddingStart="@dimen/character_name_padding" />
+
+        <TextView
+            android:gravity="center_vertical|end"
+            android:id="@+id/one_character_kp"
+            style="@style/RPGstyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/character_kp_weight" />
+
+        <TextView
+            android:gravity="center_vertical|end"
+            android:id="@+id/one_character_kp_np"
+            style="@style/RPGstyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/character_kp_weight" />
+
+        <TextView
+            android:id="@+id/one_character_kp_dot"
+            android:gravity="center_vertical|end"
+            style="@style/RPGstyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/character_kp_weight" />
+
+        <TextView
+            android:gravity="center_vertical|end"
+            android:id="@+id/one_character_initiative"
+            style="@style/RPGstyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/character_kp_weight" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/one_character_type"
+            style="@style/RPGstyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/character_type_weight" />
+
+        <Button
+            android:id="@+id/one_character_delete"
+            android:layout_width="@dimen/add_delete_button_size"
+            android:layout_height="@dimen/add_delete_button_size"
+            android:background="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <EditText
+            android:id="@+id/one_character_count"
+            style="@style/RPGstyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/character_count_weight"
+            android:hint="@string/count"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:src="@drawable/line" />
+
+</LinearLayout>

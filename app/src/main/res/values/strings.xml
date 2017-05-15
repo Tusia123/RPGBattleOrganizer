@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">RPG battle organizer</string>
+    <string name="name">imię</string>
+    <string name="image">.jpg</string>
+    <string name="kp">kp</string>
+    <string name="kpNp">kp Np</string>
+    <string name="kpDot">kp Dot</string>
+    <string name="type">typ</string>
+    <string name="start_button">rozpocznij rozgrywkę</string>
+    <string name="add_character">dodaj postać</string>
+    <string name="add_spell">dodaj zaklęcie</string>
+    <string name="spell_name">zaklęcie</string>
+    <string name="whose">czyj/kogo</string>
+    <string name="time">pozostały czas</string>
+    <string name="initiative">inicjatywa</string>
+    <string name="count">ilość</string>
+    <string name="add_characters">dodaj</string>
+    <string name="turn">TURA:</string>
+    <string name="default_no_turn">-</string>
+
+    <string-array name="character_types">
+        <item>bohater</item>
+        <item>wróg</item>
+        <item>potwór</item>
+    </string-array>
+
+    <string name="hint_spell_whose">czyj/na kogo</string>
+    <string name="hint_spell_time">czas</string>
+    <string name="error_no_time_given">Podaj czas trwania czaru w turach</string>
+</resources>

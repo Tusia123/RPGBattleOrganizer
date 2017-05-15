@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/character_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pergamin"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/img_size">
+
+            <TextView
+                android:textSize="@dimen/turn_text_size"
+                android:textColor="@color/black"
+                android:paddingLeft="5dp"
+                android:paddingStart="5dp"
+                android:paddingRight="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/turn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_fight_turn_number"
+                android:textSize="@dimen/turn_text_size"
+                android:textColor="@color/black"
+                android:text="@string/default_no_turn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_fight_add_characters"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height_fight"
+            android:background="@drawable/button_background"
+            android:text="@string/add_character" />
+
+        <include layout="@layout/fight_character_descript" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_fight_character"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height_fight"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/line" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_fight_add_spells"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height_fight"
+            android:background="@drawable/button_background"
+            android:text="@string/add_spell" />
+
+        <include layout="@layout/fight_spell_descript" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_fight_spells"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+</LinearLayout>

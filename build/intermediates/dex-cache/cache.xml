@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/marta/.android/build-cache/ad0103c40359a16ed19a55a329fc433ca8b5d912/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
+        <dex dex="/home/marta/hdd/projects_android/BattleOrganizer/BattleOrganizer_v1/app/build/intermediates/pre-dexed/debug/classes_e5d08206a6647d31ce19a73cd3c8826472370e64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/marta/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.0/7ff0e000d1e27e356567f56c92af3b8ab912636f/picasso-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7ff0e000d1e27e356567f56c92af3b8ab912636f">
+        <dex dex="/home/marta/hdd/projects_android/BattleOrganizer/BattleOrganizer_v1/app/build/intermediates/pre-dexed/debug/picasso-2.5.0_42bf97bf921029aaa129194677e7eadb738ceeea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/marta/.gradle/caches/modules-2/files-2.1/org.greenrobot/greendao-api/3.2.2/e9bbf7a184b0b4914a10d8179c993cc9aa9b1b33/greendao-api-3.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9bbf7a184b0b4914a10d8179c993cc9aa9b1b33">
+        <dex dex="/home/marta/hdd/projects_android/BattleOrganizer/BattleOrganizer_v1/app/build/intermediates/pre-dexed/debug/greendao-api-3.2.2_c94aab3236afa51c67918d334a0629bcfb046fc3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/marta/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.5.1/bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc/butterknife-annotations-8.5.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
+        <dex dex="/home/marta/hdd/projects_android/BattleOrganizer/BattleOrganizer_v1/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.5.1_8dcfe053d2518e3d2ee3479b2e1a859b7f3c4e66.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/marta/hdd/projects_android/BattleOrganizer/BattleOrganizer_v1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/home/marta/hdd/projects_android/BattleOrganizer/BattleOrganizer_v1/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4c3ea7590a5dea9ef450adbb6f50a79fff546323/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/marta/hdd/projects_android/BattleOrganizer/BattleOrganizer_v1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5a312fa563a43d7be708da151d4b5192a7956247">
+        <dex dex="/home/marta/hdd/projects_android/BattleOrganizer/BattleOrganizer_v1/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_40cb8eb0925d76c2aec7946d72856b4d9ba4cd11/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/marta/.gradle/caches/modules-2/files-2.1/org.greenrobot/greendao/3.2.2/f8c7ebdc29310be23d076e5512bafe6bad3ce2f0/greendao-3.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f8c7ebdc29310be23d076e5512bafe6bad3ce2f0">
+        <dex dex="/home/marta/hdd/projects_android/BattleOrganizer/BattleOrganizer_v1/app/build/intermediates/pre-dexed/debug/greendao-3.2.2_bd547b59fe88a4a5f7f3750ec6e87630e62ef621.jar" />
+    </item>
+
+</items>

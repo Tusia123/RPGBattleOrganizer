@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:src="@drawable/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/vertical_divider"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <TextView
+            style="@style/RPGstyleDescript"
+            android:layout_width="@dimen/img_size"
+            android:layout_height="match_parent"
+            android:text="@string/image" />
+
+        <TextView
+            style="@style/RPGstyleDescript"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/character_name_weight"
+            android:text="@string/name" />
+
+        <TextView
+            android:text="@string/kp"
+            style="@style/RPGstyleDescript"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/character_kp_weight" />
+
+        <TextView
+            android:text="@string/kpNp"
+            style="@style/RPGstyleDescript"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/character_kp_weight"
+            android:minWidth="@dimen/character_min_width_cell_size" />
+
+        <TextView
+            android:text="@string/kpDot"
+            style="@style/RPGstyleDescript"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/character_kp_weight"
+            android:minWidth="@dimen/character_min_width_cell_size" />
+
+        <TextView
+            android:text="@string/type"
+            style="@style/RPGstyleDescript"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/character_type_weight" />
+
+        <TextView
+            style="@style/RPGstyleDescript"
+            android:layout_width="@dimen/add_delete_button_size"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:src="@drawable/line" />
+
+</LinearLayout>

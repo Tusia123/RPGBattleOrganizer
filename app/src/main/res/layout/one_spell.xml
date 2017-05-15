@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/vertical_divider"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <TextView
+            android:id="@+id/one_spell_name"
+            style="@style/RPGstyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/spell_name_weight"
+            android:paddingEnd="@dimen/character_name_padding"
+            android:paddingLeft="@dimen/character_name_padding"
+            android:paddingRight="@dimen/character_name_padding"
+            android:paddingStart="@dimen/character_name_padding" />
+
+        <EditText
+            android:hint="@string/hint_spell_time"
+            android:id="@+id/one_spell_time"
+            style="@style/RPGstyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/spell_time_weight"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="number" />
+
+        <EditText
+            android:hint="@string/hint_spell_whose"
+            android:id="@+id/one_spell_whose"
+            style="@style/RPGstyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/spell_whose_weight"
+            android:imeOptions="flagNoExtractUi"/>
+
+        <Button
+            android:id="@+id/one_spell_delete"
+            android:layout_width="@dimen/add_delete_button_size"
+            android:layout_height="@dimen/add_delete_button_size"
+            android:background="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <Button
+            android:id="@+id/one_spell_add"
+            android:layout_width="@dimen/add_delete_button_size"
+            android:layout_height="@dimen/add_delete_button_size"
+            android:background="@android:drawable/ic_menu_add" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:src="@drawable/line" />
+
+</LinearLayout>
