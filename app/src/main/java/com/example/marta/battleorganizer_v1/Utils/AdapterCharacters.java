@@ -101,9 +101,7 @@ public class AdapterCharacters extends RecyclerView.Adapter<AdapterCharacters.Vi
         holder.metCount.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
-                Log.i(TAG, "focus changed====================================================");
                 if (!hasFocus && v.getTag() != null) {
-                    Log.i(TAG, "focus lost====================================================");
                     EditText editText = (EditText) v;
                     int position = (int) v.getTag();
                     Log.i(TAG, "position: " + position);
